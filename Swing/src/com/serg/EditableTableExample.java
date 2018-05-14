@@ -17,6 +17,7 @@ import javax.swing.JTable;
 import javax.swing.SwingUtilities;
 import com.serg.model.Employee;
 import java.awt.BorderLayout;
+import java.awt.Dimension;
 import java.awt.GridLayout;
 import java.awt.Point;
 import java.awt.event.MouseAdapter;
@@ -96,6 +97,7 @@ public class EditableTableExample extends JFrame {
         this.setTitle("Employee List");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
+        setPreferredSize(new Dimension(1060, 1020));
         prepareDialogPanel();
         this.pack();
         this.setVisible(true);
