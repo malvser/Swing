@@ -15,8 +15,8 @@ public class Employee
     private String name;
     private double hourlyRate;
     private boolean partTime;
- 
-    public Employee(int id, String name, double hourlyRate, boolean partTime)
+    
+        public Employee(int id, String name, double hourlyRate, boolean partTime)
     {
         this.id = id;
         this.name = name;
